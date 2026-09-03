@@ -1,0 +1,88 @@
+# ============================================================
+# TaskFlow — .gitignore
+# Stack: React + TypeScript + Vite + Tailwind CSS v4 + Supabase
+# ============================================================
+
+# --- Dependências ---
+node_modules/
+.pnp
+.pnp.js
+
+# --- Build e distribuição ---
+dist/
+dist-ssr/
+build/
+out/
+.vite/
+
+# --- Variáveis de ambiente e segredos ---
+# NUNCA versionar arquivos .env com valores reais
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+.env.test
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+secrets.yaml
+secrets.yml
+
+# --- Cache e temporários do TypeScript / Vite ---
+*.tsbuildinfo
+node_modules/.tmp/
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Cobertura de testes ---
+coverage/
+.nyc_output/
+
+# --- IDEs e editores ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swn
+.project
+.classpath
+.settings/
+
+# --- Sistema operacional ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Arquivos de análise e relatórios ---
+*.lcov
+report/
+
+# --- Misc ---
+*.local
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+.stylelintcache
